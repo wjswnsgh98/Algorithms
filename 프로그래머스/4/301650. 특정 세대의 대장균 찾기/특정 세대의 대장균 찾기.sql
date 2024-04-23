@@ -1,0 +1,8 @@
+SELECT   D.ID
+  FROM (SELECT B.ID
+          FROM ( SELECT ID
+                   FROM ECOLI_DATA
+                  WHERE PARENT_ID IS NULL) A 
+          JOIN ECOLI_DATA B ON A.ID = B.PARENT_ID) C
+  JOIN ECOLI_DATA D ON C.ID = D.PARENT_ID
+ ORDER BY D.ID 
