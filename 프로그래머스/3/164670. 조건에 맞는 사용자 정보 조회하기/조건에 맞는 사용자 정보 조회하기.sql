@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
-SELECT DISTINCT(USER_ID)
+SELECT  DISTINCT(USER_ID)
      , NICKNAME
      , (CITY || ' ' || STREET_ADDRESS1 || ' ' || STREET_ADDRESS2) AS "전체주소"
      , (SUBSTR(TLNO, 1, 3) || '-' || SUBSTR(TLNO, 4, 4) || '-' || SUBSTR(TLNO, 8, 4)) AS "전화번호"
