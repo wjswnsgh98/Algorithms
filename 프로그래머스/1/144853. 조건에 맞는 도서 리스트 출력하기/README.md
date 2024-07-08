@@ -1,6 +1,6 @@
 # [level 1] 조건에 맞는 도서 리스트 출력하기 - 144853 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/144853?language=oracle) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/144853) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@ Empty
 
 ### 제출 일자
 
-2023년 11월 2일 22:43:1
+2024년 07월 09일 05:57:12
 
 ### 문제 설명
 
