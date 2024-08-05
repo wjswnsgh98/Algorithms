@@ -1,6 +1,6 @@
 -- 코드를 입력하세요
 SELECT 
-    CAR_ID, CAR_TYPE, FEE
+     CAR_ID, CAR_TYPE, FEE
 FROM (
     SELECT C.CAR_ID, C.CAR_TYPE,
     C.DAILY_FEE * (100 - P.DISCOUNT_RATE) * 30 / 100
