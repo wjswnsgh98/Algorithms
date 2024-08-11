@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
-SELECT  ORDER_ID
+SELECT ORDER_ID
      , PRODUCT_ID
      , TO_CHAR(OUT_DATE, 'YYYY-MM-DD') AS OUT_DATE
      , CASE 
