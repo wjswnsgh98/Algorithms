@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
-SELECT  C.APNT_NO
+SELECT C.APNT_NO
      , A.PT_NAME
      , A.PT_NO
      , C.MCDP_CD
