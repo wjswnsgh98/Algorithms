@@ -1,5 +1,5 @@
---  DATE_FORMAT 사용시 타입이 DATE가 아니고 문자로 바뀌기 때문에 오답처리 되는걸로 추측
-SELECT YEAR(YM) AS YEAR
+-- DATE_FORMAT 사용시 타입이 DATE가 아니고 문자로 바뀌기 때문에 오답처리 되는걸로 추측
+SELECT  YEAR(YM) AS YEAR
      , ROUND(AVG(PM_VAL1), 2) AS PM10
      , ROUND(AVG(PM_VAL2), 2) AS 'PM2.5'
   FROM AIR_POLLUTION
